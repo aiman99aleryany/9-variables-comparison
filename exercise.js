@@ -11,10 +11,10 @@ const examsCompleted = 10;
 const firstYearCompleted = true;
 const yearsCompleted = 1;
 
-name == lastName; // false
-age <= average; // true
-firstYearCompleted == lastName; // I predicted true, but somehow it's false.
-yearsCompleted == firstYearCompleted; // true
-firstYearCompleted === yearsCompleted; // false
-examsCompleted < age; // true
-isGraduated > yearsCompleted; // false
+console.log(name == lastName); // false
+console.log(age <= average); // true
+console.log(firstYearCompleted == lastName); // I predicted true, but somehow it's false
+console.log(yearsCompleted == firstYearCompleted); // true
+console.log(firstYearCompleted === yearsCompleted); //false
+console.log(examsCompleted < age); // true
+console.log(isGraduated > yearsCompleted); //false
